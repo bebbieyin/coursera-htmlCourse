@@ -1,0 +1,114 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	background-color : #d9c8c5;
+}
+
+
+#header-nav {
+  background-color: #998582;
+  border-radius: 0;
+  border: 0;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10;
+  margin-bottom: 0;
+  line-height: .75;
+  color:black;
+  float:left;
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+#nav-list {
+    background-color: #white;
+}
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: black;
+    font-size: 1.2em;
+	text-align: center;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+
+.menu-text {
+	font-weight: bold;
+	display:block;
+	text-align:center;
+	font-size:4em;	
+}
+.content{
+		background-color:#7a5d58;
+	opacity:80%;
+	margin:30px 15px;
+	font-size:1.3em;
+	border: 3px solid black;	
+	
+}
+
+.content h4{
+	font-size:2em;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+.content p{
+	font-size:1.3em;
+	color:black;
+	padding:15px;
+	position:relative;
+}
+
+/***********************Desktop view***********************/
+			@media (min-width: 1200px) {
+
+				
+			}
+			@media (min-width: 992px) and (max-width: 1199px) {
+			}
+
+
+/********** tablet devices only **********/
+@@media (min-width: 768px) and (max-width: 991px)  {
+	
+	
+}
+			
+/***************************xs view*************************/
+@media (max-width: 767px) {
+	
+  
+
+  
+}
